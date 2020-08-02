@@ -26,7 +26,7 @@ const PrivateRoute = ({
 PrivateRoute.propTypes = {
   auth: PropTypes.object.isRequired
 };
-//mapstate
+//mapstate1
 const mapStateToProps = state => ({
   auth: state.auth
 });
