@@ -1,38 +1,126 @@
-.App {
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+#home-section {
+  background: #333;
+  color: #fff;
+}
+
+.content{
+  margin-top: 70px;
+}
+
+
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+  margin-bottom: 180px;
+}
+
+.navbar-dark{
+  background: #3b5998;
+}
+
+
+.register{
+  margin-top: 100px;
+  padding-left: 90px;
+  
+}
+
+.form-conatiner{
+  min-height: 200px;
+}
+.form-text{
+  font-size: 1rem;
+  
+}
+
+.form-link:hover{
+  text-decoration: none;
+}
+
+.footer{
+  position: fixed; 
+  padding: 18px; 
+  bottom: 0; 
+  width: 100%; 
+  color: #fff;
+}
+
+
+#home-section {
+  background: url('./home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas
+ {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+p{
+  font-size: 3rem;
+}
+
+.button-container{
+  padding-left: 1.5rem;
+}
+
+.alert-content{
+  margin-top:65px;
+  width: 33%;
   text-align: center;
+  margin-left: 11rem;
+
+}
+.form-container{
+  padding: 160px;
+  margin: 50px 0;
+}
+.profile-image{
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.profile-content{
+  padding-left:80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatar-tiny {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  margin-right: 4px;
+  position: relative;
+  top: -1px;
 }
